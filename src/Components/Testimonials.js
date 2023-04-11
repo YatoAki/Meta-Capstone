@@ -7,22 +7,22 @@ const Testimonials = () => {
 
     const humanData = [
         {
-            name: "Koko",
+            name: "Kelvin",
             img: HumanPic,
             text: "It is really nice. I did a great choice eating here"
         },
         {
-            name: "Nono",
+            name: "Michel",
             img: HumanPic,
             text: "Yayy. Best food ever. I would always come back here to enjoy the food again"
         },
         {
-            name: "Koko",
+            name: "Kaung",
             img: HumanPic,
             text: "It is really nice"
         },
         {
-            name: "Popo",
+            name: "Rick",
             img: HumanPic,
             text: "Nice. Enjoyed the food"
         }

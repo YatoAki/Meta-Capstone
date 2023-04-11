@@ -1,0 +1,61 @@
+.aboutPhoto img{
+    width: 200px;
+    height: 250px;
+    object-fit: cover;
+    object-position: right;
+}
+
+.About{
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 200px;
+}
+
+.aboutText h1{
+    font-size: 64px;
+}
+
+.aboutText h5{
+    font-size: 30px;
+}
+
+.aboutPhoto{
+    position: relative;
+}
+
+.aboutPhoto img:first-child{
+    position: absolute;
+    left: -200px;
+    top: -30px;
+}
+
+.aboutPhoto img:last-child{
+    position: absolute;
+    right: 180px;
+    top: 50px;
+}
+
+@media  screen and (max-width: 1000px) {
+
+    .About{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding-left:100px ;
+        padding-right: 100px;
+    }
+
+    .aboutPhoto{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    .aboutPhoto img:first-child{
+        position: static;
+    }
+
+    .aboutPhoto img:last-child{
+        position: static;
+    }
+
+}

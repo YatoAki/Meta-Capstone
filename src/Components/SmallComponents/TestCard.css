@@ -1,5 +1,5 @@
 .TestCard{
-    width: 300px;
+    width: 200px;
     background-color: var(--white);
     color: var(--primaryGreen);
     padding: 30px;
@@ -7,7 +7,7 @@
 }
 
 .TestCard img{
-    width: 50%;
+    width: 30%;
 }
 
 .TestCard div{
