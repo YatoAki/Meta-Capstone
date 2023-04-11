@@ -18,6 +18,36 @@
     top: 20px;
 }
 
+@media  screen and (max-width: 1000px) {
+
+    .heroSection{
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+
+    .topNav{
+        justify-content: center;
+    }
+
+
+}
+
+
+@media  screen and (max-width: 900px) {
+
+    .heroSection img{
+        display: none;
+    }
+
+    .heroSection{
+        justify-content: center;
+        text-align: center;
+    }
+
+    
+
+}
+
 .heroSection h1{
     font-size: 64px;
     font-family: "Markazi Text";

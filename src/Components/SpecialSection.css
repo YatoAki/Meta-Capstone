@@ -1,0 +1,47 @@
+.specialSection{
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+    padding: 100px 200px;
+}
+
+.topSpecial{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:20px;
+    flex-wrap: wrap;
+}
+
+.bottomSpecial{
+    display: flex;
+    justify-content: space-between;
+    gap:20px;
+    flex-wrap: wrap;
+}
+
+.topSpecial h2{
+    font-size: 56px;
+    font-weight: 500;
+}
+
+@media  screen and (max-width: 1000px) {
+
+    .specialSection{
+        padding: 100px;
+    }
+
+}
+
+@media  screen and (max-width: 600px) {
+
+    .bottomSpecial{
+        justify-content: center;
+    }
+
+    .topSpecial{
+        justify-content: center;
+        text-align: center;
+    }
+
+}

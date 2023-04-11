@@ -3,6 +3,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 10px 200px;
+    flex-wrap: wrap;
 }
 
 .topNav ul{
@@ -10,3 +11,5 @@
     display: flex;
     gap:30px;
 }
+
+

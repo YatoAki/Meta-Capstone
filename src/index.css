@@ -28,3 +28,9 @@ a{
   font-style: inherit;
   color: inherit;
 }
+
+h1,h2,h3,h4,h5{
+  font-family: var(--titleFont);
+  margin: 0;
+  padding: 0;
+}
