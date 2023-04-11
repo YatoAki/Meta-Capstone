@@ -4,6 +4,7 @@ import HeroSection from "./Components/HeroSection";
 import SpecialSection from "./Components/SpecialSection";
 import Testimonials from "./Components/Testimonials";
 import About from "./Components/About";
+import FooterNav from "./Components/FooterNav";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <SpecialSection/>
       <Testimonials/>
       <About/>
+      <FooterNav/>
     </div>
   );
 }
