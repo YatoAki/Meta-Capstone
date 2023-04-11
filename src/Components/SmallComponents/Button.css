@@ -1,0 +1,11 @@
+
+.Button{
+    background-color: var(--primaryYellow);
+    font-family: inherit;
+    color: var(--black);
+    border: none;
+    padding: 10px 20px;
+    font-weight: bold;
+    border-radius: 30px;
+    cursor: pointer;
+}

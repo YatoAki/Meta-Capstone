@@ -1,0 +1,31 @@
+.heroSection{
+    background-color: var(--primaryGreen);
+    padding: 20px 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--white);
+    position: relative;
+}
+
+.heroSection img{
+    height: 350px;
+    width: 300px;
+    object-fit: cover;
+    border-radius: 30px;
+    position: absolute;
+    right: 200px;
+    top: 20px;
+}
+
+.heroSection h1{
+    font-size: 64px;
+    font-family: "Markazi Text";
+    margin: 0;
+}
+
+.heroSection h5{
+    font-size: 30px;
+    font-family: "Markazi Text";
+    margin: 0;
+}
