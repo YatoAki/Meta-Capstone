@@ -9,7 +9,18 @@
 .topNav ul{
     list-style: none;
     display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
     gap:30px;
 }
+
+@media  screen and (max-width: 600px) {
+
+    .topNav{
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
 
 
