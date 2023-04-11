@@ -1,0 +1,43 @@
+
+.Testimonials{
+    background-color: var(--primaryGreen);
+    color: var(--white);
+    padding: 50px 200px;
+}
+
+.Testimonials h2{
+    font-size: 64px;
+    text-align: center;
+}
+
+.testCards{
+    display: flex;
+    justify-content: space-between;
+    gap:20px;
+    margin: 100px 0;
+    flex-wrap: wrap;
+}
+
+@media  screen and (max-width: 1000px) {
+
+    .Testimonials{
+        padding-left:100px ;
+        padding-right: 100px;
+    }
+
+    .testCards{
+        justify-content: center;
+    }
+
+
+}
+
+@media  screen and (max-width: 600px) {
+
+    .Testimonials{
+        padding-left:0 ;
+        padding-right: 0;
+    }
+
+    
+}

@@ -1,0 +1,26 @@
+.TestCard{
+    width: 300px;
+    background-color: var(--white);
+    color: var(--primaryGreen);
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.TestCard img{
+    width: 50%;
+}
+
+.TestCard div{
+    display: flex;
+    align-items: center;
+    gap:30px;
+}
+
+.TestCard h4{
+    font-size: 30px;
+}
+
+.TestCard p{
+    color: var(--black);
+    font-size: 15px;
+}
