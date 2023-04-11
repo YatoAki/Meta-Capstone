@@ -1,0 +1,34 @@
+.Personal{
+    padding: 100px 200px;
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+}
+
+.form{
+    display: flex;
+    gap:20px;
+}
+
+.form .left,.form .right{
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+
+input{
+    width: 230px;
+    height: 20px;
+    font-family: inherit;
+}
+#note{
+    font-size: 12px;
+}
+
+#submit{
+    background-color: var(--primaryYellow);
+    font-family: inherit;
+    height: 30px;
+    font-weight: bold;
+}
