@@ -4,9 +4,9 @@ const Button = (props) => {
 
     
     return(
-        <button onClick={props.onClick} className="Button">
+        <a href={props.link} className="Button">
             {props.text}
-        </button>
+        </a>
     )
 }
 

@@ -20,7 +20,7 @@ const HeroSection = () => {
                     twist.
                 </p>
 
-                <Button text={"Reserve a table"}/>
+                <Button text={"Reserve a table"} link={"/booking"}/>
             </div>
             <img src={ResturantFoodImg} alt="heroImage" />
         </div>

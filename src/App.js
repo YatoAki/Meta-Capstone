@@ -1,21 +1,17 @@
-import Nav from "./Components/Nav"
+import { Routes, Route } from 'react-router-dom';
+import { BrowserRouter } from 'react-router-dom';
 import './App.css';
-import HeroSection from "./Components/HeroSection";
-import SpecialSection from "./Components/SpecialSection";
-import Testimonials from "./Components/Testimonials";
-import About from "./Components/About";
-import FooterNav from "./Components/FooterNav";
+import HomePage from "./HomePage"
+import Booking from "./Booking"
 
 function App() {
   return (
-    <div className="App">
-      <Nav/>
-      <HeroSection/>
-      <SpecialSection/>
-      <Testimonials/>
-      <About/>
-      <FooterNav/>
-    </div>
+    <BrowserRouter>
+       <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/booking" element={<Booking />} />
+       </Routes>
+    </BrowserRouter>
   );
 }
 
