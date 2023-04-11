@@ -1,0 +1,42 @@
+.Reserve{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 200px;
+}
+
+.Reserve img{
+    width: 30%;
+}
+
+.ReserveText{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+#occasion{
+    width: 230px;
+}
+
+.time{
+    display: flex;
+    gap: 23px;
+}
+
+#res-time{
+    width: 100px;
+}
+
+#date{
+    width: 100px;
+    background-color: var(--primaryYellow);
+    font-family: inherit;
+    font-weight: bold;
+}
+
+select{
+    background-color: var(--primaryYellow);
+    font-family: inherit;
+    height: 30px;
+    font-weight: bold;
+}
