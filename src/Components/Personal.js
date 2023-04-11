@@ -49,6 +49,8 @@ const Personal = (props) => {
                     </div>
                 </div>
             </form>
+            {props.successData === true ? <h1 className="success">Reservation Success</h1> : <h1 style={{ visibility: 'hidden'}}>a</h1>}
+            
         </div>
     )  
 }

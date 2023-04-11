@@ -58,3 +58,7 @@ input{
 
 
 }
+
+.success{
+    color: var(--primaryGreen);
+}
