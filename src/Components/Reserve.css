@@ -33,6 +33,8 @@
 
 #date{
     width: 100px;
+    height: 30px;
+    border: none;
     background-color: var(--primaryYellow);
     font-family: inherit;
     font-weight: bold;
@@ -66,4 +68,9 @@ select{
     }
 
 
+}
+
+.alart{
+    font-size: 15px;
+    color: #eb7474;
 }
