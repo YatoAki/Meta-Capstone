@@ -4,7 +4,7 @@
     justify-content: space-between;
     align-items: flex-start;
     flex-wrap: wrap;
-    gap:50px;
+    gap:80px;
     padding: 100px 200px;
     background-color: var(--primaryGreen);
     color: var(--white);

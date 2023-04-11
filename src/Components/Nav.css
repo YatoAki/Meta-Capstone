@@ -20,6 +20,10 @@
         padding-left: 0;
         padding-right: 0;
     }
+
+    .topNav{
+        justify-content: center;
+    }
 }
 
 

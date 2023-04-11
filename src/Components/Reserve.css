@@ -8,7 +8,9 @@
 }
 
 .Reserve img{
-    width: 30%;
+    width: 300px;
+    height:300px;
+    object-fit: cover;
 }
 
 .ReserveText{
@@ -41,4 +43,27 @@ select{
     font-family: inherit;
     height: 30px;
     font-weight: bold;
+}
+
+@media  screen and (max-width: 1000px) {
+
+    .Reserve{
+        padding: 100px;
+    }
+
+}
+
+@media  screen and (max-width: 600px) {
+
+    .Reserve{
+        padding-left: 0;
+        padding-right: 0;
+        justify-content: center;
+    }
+
+    .Reserve img{
+        display: none;
+    }
+
+
 }
